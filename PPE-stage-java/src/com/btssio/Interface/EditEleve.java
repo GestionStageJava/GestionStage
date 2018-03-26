@@ -50,7 +50,7 @@ public class EditEleve extends JPanel{
 //		this.add(jt3);
 //		this.add(jt4);
 //		this.add(jt5);
-		//Creer plein de panel
+		//Creer plein de panell
 		
 		main.add(grid,BorderLayout.CENTER);
 		main.add(buton,BorderLayout.SOUTH);
