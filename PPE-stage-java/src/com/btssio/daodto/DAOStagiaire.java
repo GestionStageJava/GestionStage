@@ -1,5 +1,5 @@
 package com.btssio.daodto;
 
-public class DAOeleve {
+public class DAOStagiaire {
 
 }
