@@ -1,36 +1,36 @@
 package com.btssio.daodto;
 
-public class DTOEleve {
+public class DTOStagiaire {
 
-	// Private Arguments
+	//Private Arguments
 	private Integer id;
-	private String Nom;
-	private String Prenom;
+	private String nom;
+	private String prenom;
 	
-	// Getter
+	//Getter
 	public Integer getId() {
-		return id;
+		return this.id;
 	}
 	
 	public String getPrenom() {
-		return Prenom;
+		return this.prenom;
 	}
 	
 	public String getNom() {
-		return Nom;
+		return this.nom;
 	}
 	
-	// Setter
+	//Setter
 	public void setId(Integer id) {
 		this.id = id;
 	}
 	
 	public void setNom(String nom) {
-		Nom = nom;
+		this.nom = nom;
 	}
 	
 	public void setPrenom(String prenom) {
-		Prenom = prenom;
+		this.prenom = prenom;
 	}
 		
 }
