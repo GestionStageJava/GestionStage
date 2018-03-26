@@ -9,12 +9,12 @@ public class MenuBa extends JMenuBar{
 	private JMenu m1 = new JMenu();
 	private JMenu m2 = new JMenu();
 	private JMenu m3 = new JMenu();
-	private JMenuItem miel = new JMenuItem("Lister");
-	private JMenuItem miee = new JMenuItem("Editer");
-	private JMenuItem miec = new JMenuItem("Creer");
-	private JMenuItem mientl = new JMenuItem("Lister");
-	private JMenuItem miente = new JMenuItem("Editer");
-	private JMenuItem mientc = new JMenuItem("Creer");
+	private JMenuItem menuItemListEleve = new JMenuItem("Lister");
+	private JMenuItem menuItemEditEleve = new JMenuItem("Editer");
+	private JMenuItem menuItemCreateEleve = new JMenuItem("Creer");
+	private JMenuItem menuItemListEntr = new JMenuItem("Lister");
+	private JMenuItem menuItemEditEntr = new JMenuItem("Editer");
+	private JMenuItem menuItemCreateEntr = new JMenuItem("Creer");
 	
 	public MenuBa() {
 			//Config Menu
@@ -22,14 +22,14 @@ public class MenuBa extends JMenuBar{
 		this.m1.setText("Accueil");
 			//m2
 		this.m2.setText("Eleve");
-		this.m2.add(miel);
-		this.m2.add(miee);
-		this.m2.add(miec);
+		this.m2.add(menuItemListEleve);
+		this.m2.add(menuItemEditEleve);
+		this.m2.add(menuItemCreateEleve);
 			//m3
 		this.m3.setText("Entreprise");
-		this.m3.add(mientl);
-		this.m3.add(miente);
-		this.m3.add(mientc);
+		this.m3.add(menuItemListEntr);
+		this.m3.add(menuItemEditEntr);
+		this.m3.add(menuItemCreateEntr);
 			//Ajout label au menu
 		this.add(this.m1);
 		this.add(this.m2);
