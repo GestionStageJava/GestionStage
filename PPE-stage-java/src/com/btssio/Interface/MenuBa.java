@@ -20,7 +20,7 @@ public class MenuBa extends JMenuBar{
 	
 	public MenuBa() {
 		
-		//menuItemListEleve.addActionListener(new Class());
+		//menuItemListEleve.addActionListener(new CMenu());
 		//menu.addActionListener(new ClicValiderEditEleve(this));
 			//Config Menu
 			//m1

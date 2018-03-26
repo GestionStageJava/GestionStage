@@ -29,6 +29,7 @@ public class EditEleve extends JPanel{
 		
 		JPanel main = new JPanel();
 		JPanel grid = new JPanel();
+		JPanel buton = new JPanel();
 		
 		main.setLayout(new BorderLayout());
 		grid.setLayout(new GridLayout(5,1));
@@ -49,8 +50,10 @@ public class EditEleve extends JPanel{
 //		this.add(jt3);
 //		this.add(jt4);
 //		this.add(jt5);
+		//Creer plein de panel
 		
-		this.add(grid);
+		main.add(grid,BorderLayout.CENTER);
+		main.add(buton,BorderLayout.SOUTH);
 		//valid.addActionListener(new ClicValiderEditEleve(this));
 		//annuler...
 		
