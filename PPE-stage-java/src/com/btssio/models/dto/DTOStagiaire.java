@@ -1,7 +1,7 @@
 package com.btssio.models.dto;
 
 public class DTOStagiaire {
-
+	//
 	//Private Arguments
 	private Integer id;
 	private String nom;
