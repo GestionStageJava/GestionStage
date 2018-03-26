@@ -1,6 +1,3 @@
-create or replace database gestion_stage;
-use gestion_stage;
-
 /*
 stage
     bbd stage

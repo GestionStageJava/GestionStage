@@ -1,4 +1,4 @@
-package com.btssio.daodto;
+package com.btssio.models.dto;
 
 public class DTOStagiaire {
 
