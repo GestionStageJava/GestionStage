@@ -1,4 +1,5 @@
-create or replace database ppe_gestion_stage;
+create or replace database gestion_stage;
+use gestion_stage;
 
 /*
 stage
