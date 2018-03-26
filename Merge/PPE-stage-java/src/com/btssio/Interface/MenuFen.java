@@ -8,19 +8,19 @@ import javax.swing.JPanel;
 
 public class MenuFen extends JFrame {
 	
-	//Déclaration des variables
+	//Dï¿½claration des variables
 	private String title;
 	private int height;
 	private int width;
 	private boolean resize;
 	private Component relative;
 	
-	private JPanel conteneur = new EditEleve(); // Pour les tests, chnger le nom de la classinterface à afficher
+	private JPanel conteneur = new EditEleve(); // Pour les tests, chnger le nom de la classinterface ï¿½ afficher
 	
 		//Menu
 	private JMenuBar menu = new MenuBa();
 	
-	//Constructeur de la fenêtre
+	//Constructeur de la fenï¿½tre
 	public MenuFen(String t, int h, int w, boolean res, Component rel){
 		//Affectation 
 		this.title = t;
@@ -29,7 +29,7 @@ public class MenuFen extends JFrame {
 		this.resize = res;
 		this.relative = rel;
 		
-		//Definition des paramètres de la fenêtre
+		//Definition des paramï¿½tres de la fenï¿½tre
 		setTitle(title);
 		setSize(h,w);
 		setResizable(res);

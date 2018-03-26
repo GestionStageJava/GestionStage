@@ -8,8 +8,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		MenuFen f1 = new MenuFen("Gestion de Stage",400,300,false,null);
-		// Rend visble la fenêtre
+		MenuFen f1 = new MenuFen("Gestion de Stage",800,600,false,null);
+		// Rend visble la fenï¿½tre
 		f1.setVisible(true);
 	}
 

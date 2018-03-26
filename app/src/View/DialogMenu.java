@@ -12,6 +12,8 @@ import Controller.ClicAjouterStagiaire;
 import java.awt.Toolkit;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class DialogMenu {
 
@@ -56,6 +58,11 @@ public class DialogMenu {
 		menuBar.add(mnStagiaire);
 		
 		JMenuItem mntmAjouter = new JMenuItem("Ajouter");
+		mntmAjouter.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				//marche pas
+			}
+		});
 		mnStagiaire.add(mntmAjouter);
 		
 		JMenuItem mntmGrer = new JMenuItem("Gérer");
