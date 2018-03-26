@@ -17,6 +17,9 @@ public class MenuBa extends JMenuBar{
 	private JMenuItem menuItemCreateEntr = new JMenuItem("Creer");
 	
 	public MenuBa() {
+		
+		//menuItemListEleve.addActionListener(new Class());
+		//menu.addActionListener(new ClicValiderEditEleve(this));
 			//Config Menu
 			//m1
 		this.m1.setText("Accueil");

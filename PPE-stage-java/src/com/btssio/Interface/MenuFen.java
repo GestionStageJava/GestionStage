@@ -15,7 +15,7 @@ public class MenuFen extends JFrame {
 	private boolean resize;
 	private Component relative;
 	
-	private JPanel conteneur = new Accueil(); // Pour les tests, chnger le nom de la classinterface � afficher
+	private JPanel conteneur = new EditEleve(); // Pour les tests, chnger le nom de la classinterface � afficher
 	
 		//Menu
 	private JMenuBar menu = new MenuBa();
