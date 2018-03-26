@@ -24,6 +24,9 @@ public class EditEleve extends JPanel{
 		this.add(jt4);
 		this.add(jt5);
 		
+		//valid.addActionListener(new ClicValiderEditEleve(this));
+		//annuler...
+		
 		this.add(valid);
 		this.add(cancel);
 	}

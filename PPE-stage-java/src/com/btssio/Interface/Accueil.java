@@ -1,5 +1,8 @@
 package com.btssio.Interface;
 
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
@@ -10,20 +13,31 @@ public class Accueil extends JPanel{
 	
 		//Composant
 	private JLabel l1 = new JLabel("Bienvenue sur l'interface d'utilisation de Gestion de Stage");
-	private JButton b1 = new JButton("Gestion des Elèves");
+	private JButton b1 = new JButton("Gestion des Elï¿½ves");
 	private JButton b2 = new JButton("Gestion des Entreprises");
 	//private JTextField texte = new JTextField("Entrez qlqc");
 	//private JComboBox<String> combo = new JComboBox<String>();
 
 	public Accueil() {
-		//Ajout de données dans combobox
+		//Ajout de donnï¿½es dans combobox
 		//combo.addItem("La vie");
 		//combo.addItem("La mort");
+		JPanel titre = new JPanel();
+		JPanel bloc = new JPanel();
+		JPanel bouton = new JPanel();
+		JPanel t = new JPanel();
 		
+		titre.setLayout(new BorderLayout());
+		t.add(l1);
+		bouton.add(b1);
+		bouton.add(b2);
+		
+		titre.add(t);
+		bloc.add(bouton);
 		//Ajout des composants dans le conteneur
-		this.add(l1);
-		this.add(b1);
-		this.add(b2);
+		this.add(titre,BorderLayout.NORTH);
+		this.add(bloc,BorderLayout.SOUTH);
+		//this.add(b2,BorderLayout.CENTER);
 		//this.add(texte);
 		//this.add(combo);
 	}
