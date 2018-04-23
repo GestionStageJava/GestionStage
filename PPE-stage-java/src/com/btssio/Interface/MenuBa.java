@@ -54,6 +54,7 @@ public class MenuBa extends JMenuBar{
 		
 			//m4
 		this.m4.setText("Configuration");
+		this.m4.addActionListener(new Cmenu(this));
 
 			//Ajout label au menu
 		this.add(this.m1);
