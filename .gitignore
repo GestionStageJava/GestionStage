@@ -1,0 +1,6 @@
+# Ignorer fichier .class
+*.class
+
+# Ignorer dossier config .metadata
+/.metadata/*
+/PPE-stage-java/.metadata/*
