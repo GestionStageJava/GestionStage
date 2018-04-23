@@ -13,7 +13,7 @@ public class Accueil extends JPanel{
 	
 		//Composant
 	private JLabel l1 = new JLabel("Bienvenue sur l'interface d'utilisation de Gestion de Stage");
-	private JButton b1 = new JButton("Gestion des El�ves");
+	private JButton b1 = new JButton("Gestion des Elèves");
 	private JButton b2 = new JButton("Gestion des Entreprises");
 	//private JTextField texte = new JTextField("Entrez qlqc");
 	//private JComboBox<String> combo = new JComboBox<String>();
