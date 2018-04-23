@@ -17,6 +17,6 @@ public class Cmenu implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		//test1
-		this.menuBar;
+		System.out.println("test de clic pour maxence");
 	}
 }

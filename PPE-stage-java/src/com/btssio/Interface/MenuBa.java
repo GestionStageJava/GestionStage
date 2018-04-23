@@ -10,9 +10,11 @@ public class MenuBa extends JMenuBar{
 
 		//Menu
 
-	private JMenu m1 = new JMenu("Accueil");
+	private JMenu m1 = new JMenu("Fichier");
 	private JMenu m2 = new JMenu("Eleve");
 	private JMenu m3 = new JMenu("Entreprise");
+	
+	private Cmenu cmenu;
 
 		//MenuItem
 
@@ -22,13 +24,25 @@ public class MenuBa extends JMenuBar{
 	private JMenuItem menuItemListEntr = new JMenuItem("Lister");
 	private JMenuItem menuItemEditEntr = new JMenuItem("Editer");
 	private JMenuItem menuItemCreateEntr = new JMenuItem("Creer");
+	private JMenuItem menuItemAccueil = new JMenuItem("Accueil");
+	private JMenuItem menuItemQuit = new JMenuItem("Quitter");
+
 	
 	public MenuBa() {
+		
+		//Declaration du cmenu
+		cmenu = new Cmenu(this);
 		
 		//menuItemListEleve.addActionListener(new CMenu());
 		//menu.addActionListener(new ClicValiderEditEleve(this));
 
 			//Config Menu, add menuitem and setActionCommand 
+		//m1
+		this.m1.add(menuItemAccueil);
+		this.menuItemAccueil.setActionCommand("Accueil");
+		
+		this.m1.add(menuItemQuit);
+		this.menuItemQuit.setActionCommand("Quitter");
 			
 			//m2
 
@@ -60,19 +74,20 @@ public class MenuBa extends JMenuBar{
 
 		//m1
 
-		this.m1.addActionListener(this);
+		this.menuItemAccueil.addActionListener(cmenu);
+		this.menuItemQuit.addActionListener(cmenu);
 		
 		//m2
 
-		this.menuItemListEleve.addActionListener(new Cmenu(this));
-		this.menuItemEditEleve.addActionListener(new Cmenu(this));
-		this.menuItemCreateEleve.addActionListener(new Cmenu(this));
+		this.menuItemListEleve.addActionListener(cmenu);
+		this.menuItemEditEleve.addActionListener(cmenu);
+		this.menuItemCreateEleve.addActionListener(cmenu);
 
 		//m3
 
-		this.menuItemListEntr.addActionListener(new Cmenu(this));
-		this.menuItemEditEntr.addActionListener(new Cmenu(this));
-		this.menuItemCreateEntr.addActionListener(new Cmenu(this));
+		this.menuItemListEntr.addActionListener(cmenu);
+		this.menuItemEditEntr.addActionListener(cmenu);
+		this.menuItemCreateEntr.addActionListener(cmenu);
 
 
 			//Ajout label au menu

@@ -1,5 +1,5 @@
 package com.btssio.Interface;
 
-public class Eleve {
+public class AjoutStagiaire {
 
 }

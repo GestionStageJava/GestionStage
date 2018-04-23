@@ -12,7 +12,6 @@ public class Main {
 		// TODO Auto-generated method stub
 		JPanel accueil = new Accueil();
 		
-		
 		MenuFen f1 = new MenuFen("Gestion de Stage",800,600,false,null, accueil);
 		// Rend visible la fenetre
 		f1.setVisible(true);

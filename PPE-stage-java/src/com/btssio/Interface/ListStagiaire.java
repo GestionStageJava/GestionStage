@@ -5,7 +5,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 
-public class ListEleves extends JPanel{
+public class ListStagiaire extends JPanel{
 	
     Object[][] data = {
     	      {"Cysboy", "28 ans", "1.80 m"},
@@ -18,7 +18,7 @@ public class ListEleves extends JPanel{
     
 	private JTable t1 = new JTable(data,title);
 	
-	public ListEleves() {
+	public ListStagiaire() {
 		
 	    this.add(new JScrollPane(t1));
 		

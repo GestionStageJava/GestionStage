@@ -9,6 +9,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
+import com.btssio.controller.TestClic;
+
 public class Accueil extends JPanel{
 	
 		//Composant
@@ -30,6 +32,7 @@ public class Accueil extends JPanel{
 		titre.setLayout(new BorderLayout());
 		t.add(l1);
 		bouton.add(b1);
+		b1.addActionListener(new TestClic(this));
 		bouton.add(b2);
 		
 		titre.add(t);

@@ -9,7 +9,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class EditEleve extends JPanel{
+public class EditStagiaire extends JPanel{
 	
 	private JTextField jt1 = new JTextField(10);
 	private JLabel jl1 = new JLabel("Nom");
@@ -25,7 +25,7 @@ public class EditEleve extends JPanel{
 	private JButton valid = new JButton("Valider");
 	private JButton cancel = new JButton("Annuler");
 	
-	public EditEleve() {
+	public EditStagiaire() {
 		
 		JPanel main = new JPanel();
 		JPanel grid = new JPanel();

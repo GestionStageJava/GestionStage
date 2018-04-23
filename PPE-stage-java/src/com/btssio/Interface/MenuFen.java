@@ -40,4 +40,12 @@ public class MenuFen extends JFrame {
 		setContentPane(conteneur);
 		setJMenuBar(this.menu);
 	}
+
+	public JPanel getConteneur() {
+		return conteneur;
+	}
+
+	public void setConteneur(JPanel conteneur) {
+		this.conteneur = conteneur;
+	}
 }
