@@ -14,8 +14,4 @@ public class ControlBtnValiderEditStagiaire implements ActionListener
 		//recuperation des infos du "formulaire"
 		//met à jour Stagiaire
 	}
-	
-	
-	
-	
 }
