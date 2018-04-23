@@ -11,9 +11,9 @@ public class TestConnectionDb {
 		      Class.forName("org.postgresql.Driver");
 		      System.out.println("Driver O.K.");
 
-		      String url = "jdbc:postgresql://172.20.96.1:5432/dittierev";
-		      String user = "dittierev";
-		      String passwd = "@atme1997";
+		      String url = "jdbc:postgresql://172.20.96.1:5432/ppe_gestion_stage";
+		      String user = "";
+		      String passwd = "";
 
 		      Connection conn = DriverManager.getConnection(url, user, passwd);
 		      System.out.println("Connexion effective !");         
