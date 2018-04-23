@@ -1,6 +1,5 @@
 package com.btssio;
 
-import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 import com.btssio.Interface.Accueil;
