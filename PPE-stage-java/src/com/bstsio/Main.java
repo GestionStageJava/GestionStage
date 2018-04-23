@@ -1,14 +1,19 @@
-package com.bstsio.gstage;
+package com.bstsio;
 
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 
+import com.btssio.Interface.Accueil;
 import com.btssio.Interface.MenuFen;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		MenuFen f1 = new MenuFen("Gestion de Stage",800,600,false,null);
+		JPanel accueil = new Accueil();
+		
+		
+		MenuFen f1 = new MenuFen("Gestion de Stage",800,600,false,null, accueil);
 		// Rend visible la fenetre
 		f1.setVisible(true);
 	}
