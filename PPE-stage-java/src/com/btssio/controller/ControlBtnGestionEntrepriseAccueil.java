@@ -3,6 +3,8 @@ package com.btssio.controller;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import com.btssio.Interface.ListEntreprise;
+
 public class ControlBtnGestionEntrepriseAccueil implements ActionListener 
 {
 	ListEntreprise dialogListEntreprise;
@@ -16,8 +18,6 @@ public class ControlBtnGestionEntrepriseAccueil implements ActionListener
 	public void actionPerformed(ActionEvent e) 
 	{
 		//afficher la liste des entreprises
-		//DAO Entreprise
-		
 	}
 
 }

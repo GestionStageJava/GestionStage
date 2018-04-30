@@ -3,13 +3,14 @@ package com.btssio.controller;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ControlBtnGestionEleveAccueil implements ActionListener
+import com.btssio.Interface.ListStagiaire;
+
+public class ControlBtnGestionStagiaireAccueil implements ActionListener
 {
-	ListEleve dialogListEleve;
+	ListStagiaire dialogListEleve;
 	
-	public public ControlBtnGestionEleveAccueil(ListEleve dialog) 
+	public ControlBtnGestionStagiaireAccueil(ListStagiaire dialog) 
 	{
-		// TODO Auto-generated constructor stub
 		this.dialogListEleve = dialog;
 	}
 	
@@ -17,8 +18,7 @@ public class ControlBtnGestionEleveAccueil implements ActionListener
 	public void actionPerformed(ActionEvent e) 
 	{
 		//afficher la liste des stagiaires
-		//DAO Eleve
-		dialog = new ListEleves();
+		this.dialogListEleve = new ListStagiaire();
 	}
 
 }
