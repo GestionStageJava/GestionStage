@@ -10,6 +10,7 @@ public class MenuBa extends JMenuBar{
 
 		//Menu
 
+
 	private JMenu m1 = new JMenu("Fichier");
 	private JMenu m2 = new JMenu("Eleve");
 	private JMenu m3 = new JMenu("Entreprise");
@@ -17,6 +18,12 @@ public class MenuBa extends JMenuBar{
 	private Cmenu cmenu;
 
 		//MenuItem
+
+
+	//private JMenu m1 = new JMenu();
+	//private JMenu m2 = new JMenu();
+	//private JMenu m3 = new JMenu();
+	private JMenu m4 = new JMenu();
 
 	private JMenuItem menuItemListEleve = new JMenuItem("Lister");
 	private JMenuItem menuItemEditEleve = new JMenuItem("Editer");
@@ -68,6 +75,7 @@ public class MenuBa extends JMenuBar{
 		
 		
 		this.m3.add(menuItemCreateEntr);
+
 		this.menuItemCreateEntr.setActionCommand("Create entreprise");
 		
 		//Menu add action listener
@@ -90,9 +98,16 @@ public class MenuBa extends JMenuBar{
 		this.menuItemCreateEntr.addActionListener(cmenu);
 
 
+		this.menuItemCreateEntr.addActionListener(new Cmenu(this));
+		
+			//m4
+		this.m4.setText("Configuration");
+
+
 			//Ajout label au menu
 		this.add(this.m1);
 		this.add(this.m2);
 		this.add(this.m3);
+		this.add(this.m4);
 	}
 }
